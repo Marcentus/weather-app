@@ -1,18 +1,19 @@
 body {
   margin: 0px;
   height: 100vh;
-  background-color: #99c0e3;
+  background-color: #202020;
   display: flex;
-  align-items: center;
   justify-content: center;
+  font-family: sans-serif;
 }
 
 .weather-app {
-  background-color: white;
-  width: 750px;
-  height: 800px;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 2px;
 }

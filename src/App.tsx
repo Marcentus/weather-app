@@ -20,7 +20,7 @@ function App() {
       const data = await response.json();
       setWeatherData(data);
     } catch (error) {
-      console.log("Error getting weather");
+      console.log(error);
     }
   }
 

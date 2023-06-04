@@ -14,8 +14,11 @@ export default function Search(props: SearchProps) {
         className="search-bar"
         value={locationInput}
         onChange={handleLocationInput}
+        placeholder="search"
       ></input>
-      <button className="search-button">Search</button>
+      <button className="search-button">
+        <img className="search-icon" src="./assets/search-icon.svg" />
+      </button>
     </form>
   );
 }

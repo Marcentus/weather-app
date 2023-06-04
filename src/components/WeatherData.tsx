@@ -14,7 +14,7 @@ export default function WeatherData(props: WeatherDataProps) {
       {weatherData && weatherData.current && weatherData.location && (
         <>
           <p className="location-text">{`${weatherData.location.name}, ${weatherData.location.region}`}</p>
-          <p className="temperature">{`${weatherData.current.temp_f}F`}</p>
+          <p className="temperature">{`${weatherData.current.temp_f}°F`}</p>
         </>
       )}
     </>
